@@ -5,7 +5,7 @@ const sortByDescendingFriendCount = (users) => {
   return sortedArray;
 };
 
-console.table(
+console.log(
   sortByDescendingFriendCount([
     {
       name: "Moore Hensley",
